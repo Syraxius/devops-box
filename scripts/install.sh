@@ -35,7 +35,7 @@ add-apt-repository \
    
 apt-get update
 
-apt-get install docker-ce
+apt-get -y install docker-ce
 
 # Add docker privileges
 usermod -G docker ubuntu
