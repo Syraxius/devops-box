@@ -38,6 +38,7 @@ apt-get update
 apt-get -y install docker-ce
 
 # Add docker privileges
+groupadd docker
 usermod -G docker ubuntu
 
 # Install pip
